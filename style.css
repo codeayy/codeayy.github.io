@@ -1,0 +1,139 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+
+*{
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+}
+html,
+body{
+    font-family: 'Raleway', sans-serif;
+    background-image: linear-gradient(to right top, #061e42, #231a40, #36133a, #430b2f, #4b0622);
+}
+header{
+    color: wheat;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    height: 90px;
+    padding: 0 40px;
+}
+header .logo{
+    font-weight: 1500px;
+    font-size: 30px;
+}
+header .menu  ul{
+    display: flex;
+ }
+ header .menu  ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }    
+header .menu li a{
+    font-size: .8rem;
+    color: azure;
+    text-decoration: none;
+    padding-right: 20px;
+}
+.menu-btn{
+    background: rgba(225, 225, 225, .4);
+    padding: 10px 15px;
+    border-radius: 20px;
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+#home{
+    height: calc(100vh - 90px);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#home .info-section{
+    width: 50%;
+
+}
+
+#home .info-section  h1{
+    font-size: 3rem;
+    font-weight: 700;
+    color: whitesmoke;
+    margin-bottom: 2rem;
+   
+}
+
+#home .info-section  h4{
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: whitesmoke;
+    margin-bottom: 2rem;
+    letter-spacing: 2px;
+}
+#home .info-section  h6{
+    font-size: 1rem;
+    font-weight: 200;
+    color: rgb(242, 106, 106);
+    margin-bottom: 2rem;
+    letter-spacing: 2px;
+}
+.action-btn, .action-ghost-btn{
+    padding: 20px 20px;
+    border-radius: 30px;
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: .9rem;
+}
+
+.action-btn{
+    background: rgb(247, 239, 239);
+    color: #231a40;
+    margin-right: 2opx;
+
+}
+.action-ghost-btn{
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+}
+
+#home .photos{
+    width: 50%;
+    position: relative;
+    height: 400px;
+}
+
+#home .photos .man{
+    position: absolute;
+    width: 400px;
+    height: 600px;
+    z-index: 1;
+    transform: translate3d(0, -200px, 0);
+
+}
+
+#home .photos .girl{
+    position: absolute;
+    width: 400px;
+    height: 600px;
+    z-index: 2;
+    transform: translate3d(300px, 100px, 0);
+}
+
+
